@@ -19,7 +19,7 @@
         friendAdd,
         friendDelete
     
-    } = require('../../controllers/users-controller');
+    } = require('../controllers/users-controller');
     
     // get all users
     // post a new user

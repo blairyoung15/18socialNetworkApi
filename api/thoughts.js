@@ -21,7 +21,7 @@ const {
     reactionCreate,
     reactionDelete
 
-} = require('../../controllers/thoughts-controller');
+} = require('../controllers/thoughts-controller');
 
 // get to get all thoughts
 router
