@@ -8,8 +8,10 @@
 //POST to create a reaction stored in a single thought's reactions array field
 //DELETE to pull and remove a reaction by the reaction's reactionId value
 
+// Require express router
 const router = require('express').Router();
 
+// Set requirements (from thoughts-controller)
 const {
     allThoughtsGet,
     idThoughtsGet,
